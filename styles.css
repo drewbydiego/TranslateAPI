@@ -1,0 +1,26 @@
+.header{
+text-align: center;
+}
+
+.languages-container{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.result-container{
+    border: 1px solid RED;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.first-section, .second-section{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+label{
+    text-align: center;
+    border: 1px solid green;
+}
