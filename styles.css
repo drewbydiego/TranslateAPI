@@ -6,7 +6,7 @@ body{
 text-align: center;
 color: #00ffff;
 text-shadow: 0 0 0.5px #00ffff,
-             0 0 3px #00ffff;
+            0 0 5px #00ffff;
 }
 h1{
     font-size: 3rem;
@@ -82,14 +82,4 @@ h1{
         padding: 70 1rem;
         width: 50%;
     }
-  }
-
-  .divider{
-    height: 4px;
-    width: 60px;
-    background-color: #00ffff;
-    box-shadow: 0 0 3px #00ffff,
-                 0 0 8px #00ffff;
-    margin-top: 5px;
-    margin-bottom: 2em;
   }
