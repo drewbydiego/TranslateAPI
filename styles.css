@@ -1,26 +1,78 @@
+body{
+    background-color: rgba(20, 20, 34);
+    color: azure;
+}
 .header{
 text-align: center;
 }
 
-.languages-container{
-    margin-bottom: 30px;
-    text-align: center;
+.content{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
+.languages-container{
+    /*margin-bottom: 30px;*/
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.languages-container select{
+    background-color: rgba(20, 20, 34);
+    color: azure;
+}
 .result-container{
-    border: 1px solid RED;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 70%;
 }
 .first-section, .second-section{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 30vw;
+    padding: 0.5rem;
 }
 
-label{
+.textAreaCont label{
     text-align: center;
-    border: 1px solid green;
+    padding-bottom: 1rem;
 }
+.textAreaCont{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: center;
+
+}
+.textAreaCont textarea{
+    background-color: transparent;
+    color: azure;
+    border: 1px solid azure;
+    text-align: center;
+}
+#translatebtn{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200);
+}
+#translatebtn:hover{
+        background-color: azure;
+        box-shadow: none;
+        border-color:azure;
+        color: rgba(20, 20, 34);
+      }
+@media screen and (max-width: 500px){
+    .first-section, .second-section{
+        padding: 70 1rem;
+        width: 50%;
+    }
+  }
